@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeCashAdvance.EntityF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeCashAdvance.App", "EmployeeCashAdvance.App\EmployeeCashAdvance.App.csproj", "{53732957-F2DD-4351-B88B-D19341E2A154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeCashAdvance.Dapper", "EmployeeCashAdvance.Dapper\EmployeeCashAdvance.Dapper.csproj", "{DF7E0AC8-FEAD-4FB3-BE54-BF54984214BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeCashAdvance.Dapper", "EmployeeCashAdvance.Dapper\EmployeeCashAdvance.Dapper.csproj", "{DF7E0AC8-FEAD-4FB3-BE54-BF54984214BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +58,7 @@ Global
 		{8B7808D1-6741-462D-BD81-DB3C94EF0A7C} = {0B37D403-E320-4DE2-A0EF-FF9C49380227}
 		{7C6BB1F0-8C31-4B7D-A229-4F357886532D} = {0B37D403-E320-4DE2-A0EF-FF9C49380227}
 		{74EC86C9-441F-4544-A5BF-969CD92B3F1A} = {0B37D403-E320-4DE2-A0EF-FF9C49380227}
+		{53732957-F2DD-4351-B88B-D19341E2A154} = {0B37D403-E320-4DE2-A0EF-FF9C49380227}
 		{DF7E0AC8-FEAD-4FB3-BE54-BF54984214BB} = {0B37D403-E320-4DE2-A0EF-FF9C49380227}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
