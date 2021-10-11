@@ -32,6 +32,7 @@ namespace EmployeeCashAdvance.App.Controllers
                     Amount = item.Amount,
                     IsApproved = item.IsApproved,
                     Department = item?.Departments?.DepartmentName,
+                    
 
 
                 };
@@ -44,10 +45,25 @@ namespace EmployeeCashAdvance.App.Controllers
 
             return View(modellist);
         }
-
-        // GET: AdminController/Details/5
-        public ActionResult Details(int id)
+        [HttpGet]
+        public ActionResult signUp()
         {
+            return View();
+
+        }
+
+    [HttpPost]
+        public ActionResult signUp(PasswordViewModel model)
+
+        {
+            if (ModelState.IsValid)
+            {
+                if (model.password=="1234")
+                {
+                    return RedirectToAction("ListOfCashRequest");
+                }  
+            }
+            ModelState.AddModelError("", "Invalid password");
             return View();
         }
 
