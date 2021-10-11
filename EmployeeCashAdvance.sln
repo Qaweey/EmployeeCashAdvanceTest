@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B37D403-E320-4DE2-A0EF-FF9C49380227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CashAdvance.test", "CashAdvance.test", "{B5472F31-0B61-4688-8C5E-833D55F4862A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeCashAdvanceApp.Domain", "EmployeeCashAdvanceApp.Domain\EmployeeCashAdvanceApp.Domain.csproj", "{D92BCF95-7EF4-43A1-A073-0F8CBC199D37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeCashAdvanceApp.Domain.Shared", "EmployeeCashAdvanceApp.Domain.Shared\EmployeeCashAdvanceApp.Domain.Shared.csproj", "{8B7808D1-6741-462D-BD81-DB3C94EF0A7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeCashAdvanceApp.Contract", "EmployeeCashAdvanceApp.Contract\EmployeeCashAdvanceApp.Contract.csproj", "{7C6BB1F0-8C31-4B7D-A229-4F357886532D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeCashAdvance.EntityFrameWorkCore", "EmployeeCashAdvance.EntityFrameWorkCore\EmployeeCashAdvance.EntityFrameWorkCore.csproj", "{74EC86C9-441F-4544-A5BF-969CD92B3F1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeCashAdvance.App", "EmployeeCashAdvance.App\EmployeeCashAdvance.App.csproj", "{53732957-F2DD-4351-B88B-D19341E2A154}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeCashAdvance.Dapper", "EmployeeCashAdvance.Dapper\EmployeeCashAdvance.Dapper.csproj", "{DF7E0AC8-FEAD-4FB3-BE54-BF54984214BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D92BCF95-7EF4-43A1-A073-0F8CBC199D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92BCF95-7EF4-43A1-A073-0F8CBC199D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92BCF95-7EF4-43A1-A073-0F8CBC199D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92BCF95-7EF4-43A1-A073-0F8CBC199D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7808D1-6741-462D-BD81-DB3C94EF0A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7808D1-6741-462D-BD81-DB3C94EF0A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7808D1-6741-462D-BD81-DB3C94EF0A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7808D1-6741-462D-BD81-DB3C94EF0A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C6BB1F0-8C31-4B7D-A229-4F357886532D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C6BB1F0-8C31-4B7D-A229-4F357886532D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C6BB1F0-8C31-4B7D-A229-4F357886532D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C6BB1F0-8C31-4B7D-A229-4F357886532D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74EC86C9-441F-4544-A5BF-969CD92B3F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EC86C9-441F-4544-A5BF-969CD92B3F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EC86C9-441F-4544-A5BF-969CD92B3F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EC86C9-441F-4544-A5BF-969CD92B3F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53732957-F2DD-4351-B88B-D19341E2A154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53732957-F2DD-4351-B88B-D19341E2A154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53732957-F2DD-4351-B88B-D19341E2A154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53732957-F2DD-4351-B88B-D19341E2A154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF7E0AC8-FEAD-4FB3-BE54-BF54984214BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF7E0AC8-FEAD-4FB3-BE54-BF54984214BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF7E0AC8-FEAD-4FB3-BE54-BF54984214BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF7E0AC8-FEAD-4FB3-BE54-BF54984214BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D92BCF95-7EF4-43A1-A073-0F8CBC199D37} = {0B37D403-E320-4DE2-A0EF-FF9C49380227}
+		{8B7808D1-6741-462D-BD81-DB3C94EF0A7C} = {0B37D403-E320-4DE2-A0EF-FF9C49380227}
+		{7C6BB1F0-8C31-4B7D-A229-4F357886532D} = {0B37D403-E320-4DE2-A0EF-FF9C49380227}
+		{74EC86C9-441F-4544-A5BF-969CD92B3F1A} = {0B37D403-E320-4DE2-A0EF-FF9C49380227}
+		{DF7E0AC8-FEAD-4FB3-BE54-BF54984214BB} = {0B37D403-E320-4DE2-A0EF-FF9C49380227}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F44B4CF-29C7-4CB7-8CF8-DB761A5758E5}
+	EndGlobalSection
+EndGlobal
