@@ -63,7 +63,7 @@ namespace EmployeeCashAdvance.App.Controllers
                         Name = model.Name,
                         Email = model.Email,
                         Amount = model.Amount,
-                        DepartmentId = model.DepartmentId
+                       
                     };
                     await _unitOfWork.Employeedetails.Insert(empdetails);
                     await _unitOfWork.Save();

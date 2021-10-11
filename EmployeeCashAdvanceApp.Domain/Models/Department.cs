@@ -22,6 +22,8 @@ namespace EmployeeCashAdvanceApp.Domain.Models
         public string  HODName { get; set; }
         [StringLength(300)]
         public string  HODEmail{ get; set; }
+        public string Id { get; set; }
+        [ForeignKey(nameof(Id))]
         public EmployeeDetails Employeedetails{ get; set; }
     }
 }

@@ -21,13 +21,13 @@ namespace EmployeeCashAdvanceApp.Domain.Models
         public string  Name{ get; set; }
         
         
-        public int DepartmentId { get; set; }
+        
         [StringLength(300)]
         public string  Email { get; set; }
 
         public string Amount { get; set; }
         public bool IsApproved { get; set; }
-        [ForeignKey(nameof(DepartmentId))]
+        
         public Department Departments { get; set; }
 
     }
